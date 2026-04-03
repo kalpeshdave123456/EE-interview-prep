@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Project Prep • EE/VLSI Interview Prep</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body data-page="projects">
+  <div class="bg-grid"></div>
+  <header class="site-header sticky">
+    <div class="brand"><div class="chip-icon"></div><div><h1>Projects & Resume Walkthrough</h1><p>Prepare for deep-dive discussions</p></div></div>
+    <button class="menu-toggle" aria-label="Toggle navigation">☰</button>
+    <nav class="site-nav">
+      <a href="index.html">Home</a><a href="questions.html">Question Bank</a><a href="quiz.html">Quizzes</a><a href="mock.html">Mock</a><a href="flashcards.html">Flashcards</a><a href="notes.html">Notes</a><a href="behavioral.html">Behavioral</a><a href="companies.html">Companies</a><a class="active" href="projects.html">Projects</a>
+    </nav>
+  </header>
+  <main class="container">
+    <section class="dashboard-grid">
+      <article class="card panel">
+        <h2>Project explanation checklist</h2>
+        <ul class="clean-list">
+          <li>Problem statement and why it mattered</li>
+          <li>Your exact contribution vs team contribution</li>
+          <li>Architecture / block diagram explanation</li>
+          <li>Design trade-offs and constraints</li>
+          <li>Verification method and observed bugs</li>
+          <li>Measured result or expected silicon/system impact</li>
+        </ul>
+      </article>
+      <article class="card panel">
+        <h2>High-value follow-up questions</h2>
+        <ul class="clean-list">
+          <li>What bottleneck did you face and how did you isolate it?</li>
+          <li>What would you redesign if area or power became critical?</li>
+          <li>How did you validate correctness beyond normal simulation?</li>
+          <li>What assumptions did your design rely on?</li>
+          <li>How would the design scale for higher frequency?</li>
+        </ul>
+      </article>
+    </section>
+
+    <section class="card panel">
+      <h2>Strong project discussion template</h2>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Section</th><th>Recommended content</th></tr></thead>
+          <tbody>
+            <tr><td>Problem</td><td>One clear sentence on what the design solves.</td></tr>
+            <tr><td>Architecture</td><td>Top blocks, interfaces, clock/reset scheme, dataflow.</td></tr>
+            <tr><td>Implementation</td><td>RTL/analog blocks, choices made, design trade-offs.</td></tr>
+            <tr><td>Verification</td><td>Testbench, coverage, assertions, corner cases or lab validation.</td></tr>
+            <tr><td>Results</td><td>Timing, throughput, power, area, stability or performance impact.</td></tr>
+            <tr><td>Learnings</td><td>What broke, what improved, what you would change next.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

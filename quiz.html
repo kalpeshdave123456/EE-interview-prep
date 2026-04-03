@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quizzes • EE/VLSI Interview Prep</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body data-page="quiz">
+  <div class="bg-grid"></div>
+  <header class="site-header sticky">
+    <div class="brand"><div class="chip-icon"></div><div><h1>Quiz Arena</h1><p>MCQs with instant feedback</p></div></div>
+    <button class="menu-toggle" aria-label="Toggle navigation">☰</button>
+    <nav class="site-nav">
+      <a href="index.html">Home</a><a href="questions.html">Question Bank</a><a class="active" href="quiz.html">Quizzes</a><a href="mock.html">Mock</a><a href="flashcards.html">Flashcards</a><a href="notes.html">Notes</a><a href="behavioral.html">Behavioral</a><a href="companies.html">Companies</a><a href="projects.html">Projects</a>
+    </nav>
+  </header>
+  <main class="container">
+    <section class="card panel">
+      <div class="filters two">
+        <select id="quizCategoryFilter"></select>
+        <button id="newQuizBtn" class="btn btn-primary">Generate 5-question quiz</button>
+      </div>
+    </section>
+    <section id="quizContainer" class="stack"></section>
+    <section class="card panel hidden" id="quizResultCard">
+      <h3>Your score</h3>
+      <p id="quizScoreText"></p>
+    </section>
+  </main>
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
