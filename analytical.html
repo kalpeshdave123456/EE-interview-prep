@@ -3,38 +3,39 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Question Bank</title>
+  <title>Analytical & Logical Questions</title>
   <link rel="stylesheet" href="css/style.css" />
 </head>
-<body data-page="questions">
+<body data-page="analytical">
   <div class="bg-grid"></div>
   <header class="site-header sticky">
-    <div class="brand"><div class="chip-icon"></div><div><h1>Question Bank</h1><p>EE / VLSI / Hardware interview prep</p></div></div>
+    <div class="brand"><div class="chip-icon"></div><div><h1>Analytical & Logical Questions</h1><p>EE / VLSI / Hardware interview prep</p></div></div>
     <button class="menu-toggle" aria-label="Toggle navigation">☰</button>
     <nav class="site-nav">
       <a href="index.html">Home</a>
-      <a class="active" href="questions.html">Question Bank</a>
+      <a href="questions.html">Question Bank</a>
       <a href="quiz.html">Quizzes</a>
       <a href="mock.html">Mock</a>
       <a href="flashcards.html">Flashcards</a>
       <a href="notes.html">Notes</a>
       <a href="behavioral.html">Behavioral</a>
       <a href="companies.html">Companies</a>
-      <a href="analytical.html">Analytical</a>
+      <a class="active" href="analytical.html">Analytical</a>
       <a href="videos.html">Videos</a>
       <a href="projects.html">Projects</a>
 </nav>
   </header>
   <main class="container">
 <section class="card panel stack">
-  <div class="section-head"><h2>Technical question bank</h2><span id="questionCount" class="pill">0 results</span></div>
-  <div class="filters">
-    <select id="categoryFilter"></select>
-    <select id="difficultyFilter"><option value="All">All difficulties</option><option value="Easy">Easy</option><option value="Medium">Medium</option><option value="Hard">Hard</option></select>
-    <input id="questionSearch" type="text" placeholder="Search by topic, keyword, concept, or tag" />
+  <div class="section-head"><h2>Analytical / logical practice</h2><span class="pill">60-question bank</span></div>
+  <div class="filters two">
+    <select id="analyticalCategoryFilter"></select>
+    <button class="btn btn-secondary" id="buildAnalyticalBtn">New paper</button>
+    <button class="btn btn-primary" id="submitAnalyticalBtn">Submit paper</button>
   </div>
 </section>
-<section id="questionsContainer" class="stack"></section>
+<section id="analyticalContainer" class="stack"></section>
+<div id="analyticalResultCard" class="score-panel hidden"></div>
 </main>
   <script src="js/data.js"></script>
   <script src="js/app.js"></script>

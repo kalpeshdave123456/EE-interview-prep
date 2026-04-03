@@ -3,13 +3,13 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Behavioral Prep</title>
+  <title>Video Shelf</title>
   <link rel="stylesheet" href="css/style.css" />
 </head>
-<body data-page="behavioral">
+<body data-page="videos">
   <div class="bg-grid"></div>
   <header class="site-header sticky">
-    <div class="brand"><div class="chip-icon"></div><div><h1>Behavioral Prep</h1><p>EE / VLSI / Hardware interview prep</p></div></div>
+    <div class="brand"><div class="chip-icon"></div><div><h1>Video Shelf</h1><p>EE / VLSI / Hardware interview prep</p></div></div>
     <button class="menu-toggle" aria-label="Toggle navigation">☰</button>
     <nav class="site-nav">
       <a href="index.html">Home</a>
@@ -18,14 +18,17 @@
       <a href="mock.html">Mock</a>
       <a href="flashcards.html">Flashcards</a>
       <a href="notes.html">Notes</a>
-      <a class="active" href="behavioral.html">Behavioral</a>
+      <a href="behavioral.html">Behavioral</a>
       <a href="companies.html">Companies</a>
       <a href="analytical.html">Analytical</a>
-      <a href="videos.html">Videos</a>
+      <a class="active" href="videos.html">Videos</a>
       <a href="projects.html">Projects</a>
 </nav>
   </header>
-  <main class="container"><section id="behavioralContainer" class="card-grid"></section></main>
+  <main class="container">
+<section class="card panel"><div class="section-head"><h2>Basic-topic video shelf</h2><span class="pill">YouTube links</span></div><p class="muted">These links open YouTube search results for the topic so users can quickly browse multiple tutorials and channels.</p></section>
+<section id="videosContainer" class="card-grid"></section>
+</main>
   <script src="js/data.js"></script>
   <script src="js/app.js"></script>
 </body>

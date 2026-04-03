@@ -9,13 +9,7 @@
 <body data-page="home">
   <div class="bg-grid"></div>
   <header class="site-header sticky">
-    <div class="brand">
-      <div class="chip-icon"></div>
-      <div>
-        <h1>EE/VLSI Interview Prep</h1>
-        <p>US MNC hardware interview readiness hub</p>
-      </div>
-    </div>
+    <div class="brand"><div class="chip-icon"></div><div><h1>EE/VLSI Interview Prep</h1><p>EE / VLSI / Hardware interview prep</p></div></div>
     <button class="menu-toggle" aria-label="Toggle navigation">☰</button>
     <nav class="site-nav">
       <a class="active" href="index.html">Home</a>
@@ -26,136 +20,89 @@
       <a href="notes.html">Notes</a>
       <a href="behavioral.html">Behavioral</a>
       <a href="companies.html">Companies</a>
+      <a href="analytical.html">Analytical</a>
+      <a href="videos.html">Videos</a>
       <a href="projects.html">Projects</a>
-    </nav>
+</nav>
   </header>
-
   <main class="container">
-    <section class="hero card glass">
-      <div>
-        <span class="eyebrow">Standalone • GitHub-ready • Electronics-themed</span>
-        <h2>Master hardware interviews across RTL, digital, analog, VLSI and architecture.</h2>
-        <p>
-          Practice curated questions, revise fast with flashcards, test yourself with quizzes,
-          and simulate mixed technical + behavioral interviews for top US MNC-style roles.
-        </p>
-        <div class="hero-actions">
-          <a class="btn btn-primary" href="questions.html">Start Question Practice</a>
-          <a class="btn btn-secondary" href="mock.html">Run Mock Interview</a>
-        </div>
-      </div>
-      <div class="hero-panel">
-        <div class="metric-grid">
-          <div class="metric card">
-            <span>Domains</span>
-            <strong>7</strong>
-          </div>
-          <div class="metric card">
-            <span>Question Modes</span>
-            <strong>4</strong>
-          </div>
-          <div class="metric card">
-            <span>Company Tracks</span>
-            <strong>8</strong>
-          </div>
-          <div class="metric card">
-            <span>Browser Saved</span>
-            <strong>Local</strong>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="dashboard-grid">
-      <article class="card panel accent-left">
-        <h3>Interview domains</h3>
-        <div class="tiles compact">
-          <a class="tile" href="questions.html?category=Verilog">Verilog / RTL</a>
-          <a class="tile" href="questions.html?category=Digital Logic">Digital Logic</a>
-          <a class="tile" href="questions.html?category=Analog Design">Analog Design</a>
-          <a class="tile" href="questions.html?category=VLSI">VLSI</a>
-          <a class="tile" href="questions.html?category=Computer Architecture">Comp Architecture</a>
-          <a class="tile" href="questions.html?category=Semiconductor">Semiconductor</a>
-          <a class="tile" href="behavioral.html">Behavioral / Soft Skills</a>
-        </div>
-      </article>
-
-      <article class="card panel">
-        <h3>Quick launch</h3>
-        <div class="action-list">
-          <a class="action-row" href="quiz.html">Take a topic quiz <span>→</span></a>
-          <a class="action-row" href="mock.html">30-minute mixed mock <span>→</span></a>
-          <a class="action-row" href="flashcards.html">Last-minute flashcards <span>→</span></a>
-          <a class="action-row" href="companies.html">Company-style rounds <span>→</span></a>
-          <a class="action-row" href="projects.html">Project discussion prep <span>→</span></a>
-        </div>
-      </article>
-
-      <article class="card panel">
-        <h3>Your progress</h3>
-        <div class="progress-block">
-          <div class="progress-line"><span>Saved favorites</span><strong id="favoriteCount">0</strong></div>
-          <div class="progress-line"><span>Quiz attempts</span><strong id="quizAttempts">0</strong></div>
-          <div class="progress-line"><span>Mock sessions</span><strong id="mockAttempts">0</strong></div>
-          <div class="progress-line"><span>Readiness score</span><strong id="readinessScore">0%</strong></div>
-        </div>
-      </article>
-    </section>
-
-    <section class="card panel">
-      <div class="section-head">
-        <h3>Suggested weekly prep flow</h3>
-        <a href="notes.html" class="text-link">See revision notes</a>
-      </div>
-      <div class="table-wrap">
-        <table>
-          <thead>
-            <tr><th>Day</th><th>Focus</th><th>Recommended activity</th></tr>
-          </thead>
-          <tbody>
-            <tr><td>Mon</td><td>RTL + Logic</td><td>20 Verilog questions + 10 timing concept flashcards</td></tr>
-            <tr><td>Tue</td><td>Digital fundamentals</td><td>Quiz on FSM, counters, setup/hold and K-maps</td></tr>
-            <tr><td>Wed</td><td>Analog / Devices</td><td>Practice biasing, op-amp and MOSFET questions</td></tr>
-            <tr><td>Thu</td><td>VLSI flow</td><td>Revise STA, power, PVT, floorplan and signoff basics</td></tr>
-            <tr><td>Fri</td><td>Architecture</td><td>Cache, pipeline, memory hierarchy mock drill</td></tr>
-            <tr><td>Sat</td><td>Behavioral</td><td>STAR answers + project walkthrough practice</td></tr>
-            <tr><td>Sun</td><td>Full round</td><td>1 mixed technical mock + 1 company-style round</td></tr>
-          </tbody>
-        </table>
-      </div>
-    </section>
-
-    <section class="dashboard-grid three">
-      <article class="card panel">
-        <h3>Why this app works</h3>
-        <ul class="clean-list">
-          <li>Static app with zero backend dependency</li>
-          <li>Responsive and easy to host on GitHub Pages</li>
-          <li>Focused on actual hardware interview categories</li>
-          <li>Includes technical and behavioral readiness</li>
-        </ul>
-      </article>
-      <article class="card panel">
-        <h3>Best for</h3>
-        <ul class="clean-list">
-          <li>ECE/EE students</li>
-          <li>RTL / ASIC / FPGA freshers</li>
-          <li>MS applicants for hardware roles</li>
-          <li>Experienced engineers refreshing fundamentals</li>
-        </ul>
-      </article>
-      <article class="card panel">
-        <h3>Hosting</h3>
-        <p>Upload the folder to a GitHub repo and enable GitHub Pages from the main branch. No build step needed.</p>
-        <a class="btn btn-secondary full" href="README.md">Read deployment guide</a>
-      </article>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <p>Folder: <strong>EE-interview-prep</strong> • Static HTML/CSS/JS • Ready for GitHub Pages</p>
-  </footer>
-
+<section class="hero card glass">
+  <div>
+    <span class="eyebrow">Standalone • GitHub-ready • Electronics-themed</span>
+    <h2>Master EE, VLSI and hardware interviews with technical + soft-skill practice.</h2>
+    <p>Updated build with clickable quizzes, submittable mock tests, company-specific 10-question papers, a larger flashcard bank, video sections, and analytical/logical practice.</p>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="questions.html">Start Question Practice</a>
+      <a class="btn btn-secondary" href="mock.html">Run Mock Test</a>
+    </div>
+  </div>
+  <div class="hero-panel">
+    <div class="metric-grid">
+      <div class="metric card"><span>Domains</span><strong>7+</strong></div>
+      <div class="metric card"><span>Flashcards</span><strong>48</strong></div>
+      <div class="metric card"><span>Analytical Qs</span><strong>60</strong></div>
+      <div class="metric card"><span>Company Papers</span><strong>6</strong></div>
+    </div>
+  </div>
+</section>
+<section class="dashboard-grid">
+  <article class="card panel accent-left">
+    <h3>Interview domains</h3>
+    <div class="tiles compact">
+      <a class="tile" href="questions.html?category=Verilog">Verilog / RTL</a>
+      <a class="tile" href="questions.html?category=Digital Logic">Digital Logic</a>
+      <a class="tile" href="questions.html?category=Analog Design">Analog Design</a>
+      <a class="tile" href="questions.html?category=VLSI">VLSI</a>
+      <a class="tile" href="questions.html?category=Computer Architecture">Comp Architecture</a>
+      <a class="tile" href="questions.html?category=Semiconductor">Semiconductor</a>
+      <a class="tile" href="behavioral.html">Behavioral / Soft Skills</a>
+    </div>
+  </article>
+  <article class="card panel">
+    <h3>Quick launch</h3>
+    <div class="action-list">
+      <a class="action-row" href="quiz.html">Take a submittable quiz <span>→</span></a>
+      <a class="action-row" href="mock.html">Run a mixed mock paper <span>→</span></a>
+      <a class="action-row" href="companies.html">Company-style 10-question tests <span>→</span></a>
+      <a class="action-row" href="analytical.html">Analytical / logical practice <span>→</span></a>
+      <a class="action-row" href="videos.html">Video shelf with YouTube links <span>→</span></a>
+    </div>
+  </article>
+  <article class="card panel">
+    <h3>Your progress</h3>
+    <div class="progress-block">
+      <div class="progress-line"><span>Saved favorites</span><strong id="favoriteCount">0</strong></div>
+      <div class="progress-line"><span>Quiz attempts</span><strong id="quizAttempts">0</strong></div>
+      <div class="progress-line"><span>Mock attempts</span><strong id="mockAttempts">0</strong></div>
+      <div class="progress-line"><span>Analytical attempts</span><strong id="analyticsAttempts">0</strong></div>
+      <div class="progress-line"><span>Readiness score</span><strong id="readinessScore">0%</strong></div>
+    </div>
+  </article>
+</section>
+<section class="card panel">
+  <div class="section-head"><h3>Suggested weekly prep flow</h3><a href="videos.html" class="text-link">Open videos</a></div>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th>Day</th><th>Focus</th><th>Recommended activity</th></tr></thead>
+      <tbody>
+        <tr><td>Mon</td><td>RTL + Logic</td><td>15 Verilog questions + 10 digital flashcards</td></tr>
+        <tr><td>Tue</td><td>Digital fundamentals</td><td>Submittable topic quiz on FSM, counters, setup/hold</td></tr>
+        <tr><td>Wed</td><td>Analog / Devices</td><td>Practice op-amp, current mirror, MOSFET and device basics</td></tr>
+        <tr><td>Thu</td><td>VLSI flow</td><td>Revise STA, PVT, power, clocking, and timing closure</td></tr>
+        <tr><td>Fri</td><td>Architecture</td><td>Cache, hazards, throughput and branch prediction drill</td></tr>
+        <tr><td>Sat</td><td>Behavioral + Analytical</td><td>STAR practice and one 20-question logic paper</td></tr>
+        <tr><td>Sun</td><td>Full round</td><td>1 mixed mock + 1 company-specific 10-question paper</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+<section class="dashboard-grid three">
+  <article class="card panel"><h3>What is new</h3><ul class="clean-list"><li>Clickable quizzes with Submit and final score</li><li>Mock tests now behave like a paper, not just reveal cards</li><li>Company cards launch company-specific mini papers</li><li>Added video shelf and 60 analytical/logical questions</li></ul></article>
+  <article class="card panel"><h3>Best for</h3><ul class="clean-list"><li>ECE/EE students</li><li>RTL / ASIC / FPGA freshers</li><li>MS applicants for US hardware roles</li><li>Engineers refreshing fundamentals</li></ul></article>
+  <article class="card panel"><h3>Hosting</h3><p class="muted">Static HTML/CSS/JS. Upload to GitHub and enable Pages from the main branch. No build step required.</p><a class="btn btn-secondary full" href="README.md">Read deployment guide</a></article>
+</section>
+<footer class="site-footer"><p>Folder: <strong>EE-interview-prep</strong> • Static HTML/CSS/JS • Ready for GitHub Pages</p></footer>
+</main>
   <script src="js/data.js"></script>
   <script src="js/app.js"></script>
 </body>

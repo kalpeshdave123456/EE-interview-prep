@@ -1,55 +1,29 @@
 # EE-interview-prep
 
-Standalone EE/VLSI/Hardware interview prep app built with plain HTML, CSS and JavaScript.
+Standalone static interview-prep app for EE / VLSI / Hardware roles.
 
-## Features
-
-- Technical question bank across:
-  - Verilog / RTL
-  - Digital Logic
-  - Analog Design
-  - VLSI
-  - Computer Architecture
-  - Semiconductor fundamentals
-- Behavioral and soft skills section
-- Topic-based quizzes with scoring
-- Mock interview mode
-- Flashcards for quick revision
-- Company-style interview tracks
-- Project discussion prep section
-- Local browser storage for favorites and progress
-
-## How to run locally
-
-1. Download the project folder.
-2. Open `index.html` in your browser.
-3. For best navigation behavior, you can also use a lightweight local server.
-
-Example with Python:
-
-```bash
-python -m http.server 8000
-```
-
-Then open `http://localhost:8000`
+## What is included
+- technical question bank
+- submittable quizzes with final score
+- submittable mock tests
+- company-style 10-question papers
+- flashcards
+- behavioral prep
+- analytical / logical questions
+- video shelf with YouTube links
 
 ## GitHub Pages deployment
+1. Create a new GitHub repo named `EE-interview-prep` or any repo name you prefer.
+2. Upload all files from this folder to the repo root.
+3. Commit and push.
+4. In GitHub, open **Settings > Pages**.
+5. Under **Build and deployment**, choose **Deploy from a branch**.
+6. Select the `main` branch and `/root` folder.
+7. Save.
+8. GitHub will publish the site and provide the live URL.
 
-1. Create a new GitHub repository.
-2. Upload the full `EE-interview-prep` folder contents.
-3. Commit to the `main` branch.
-4. Go to **Settings > Pages**.
-5. Under **Build and deployment**, choose:
-   - Source: `Deploy from a branch`
-   - Branch: `main`
-   - Folder: `/ (root)`
-6. Save.
-7. GitHub will publish the site in a few minutes.
+## Entry file
+Open `index.html`.
 
-## Recommended next upgrades
-
-- Add more technical questions and quizzes
-- Add waveform/image illustrations
-- Add downloadable cheat sheets
-- Add interview tracker dashboard
-- Add video shelf and curated learning resources
+## Tech stack
+Pure HTML, CSS and JavaScript with browser localStorage for score tracking.
